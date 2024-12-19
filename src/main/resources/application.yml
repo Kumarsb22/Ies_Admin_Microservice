@@ -1,0 +1,31 @@
+Server:
+    port: 9090
+
+Spring:
+  Datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/iesadminapi
+    username: postgres
+    password: nic@123
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: srkskumar22
+    password: opcechzhmujiussm
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
+    jpa:
+      show-sql: true
+      hibernate:
+        ddl-auto: update
+      properties:
+        hibernate:
+          format-sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect

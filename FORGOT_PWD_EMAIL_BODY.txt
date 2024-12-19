@@ -1,0 +1,11 @@
+Hi ${FNAME}, <br/>
+<br/>
+
+Please find your password below <br/>
+
+<br/>
+
+Your Password : ${pazzword} <br/>
+<br/>
+Thanks, <br/>
+God <br/>
